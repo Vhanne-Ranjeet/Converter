@@ -1,0 +1,106 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.parent-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(129, 164, 175, 0), rgba(255,0,0,1));
+}
+.heading {
+  color:darkslategray;
+  font-size: 50px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  border-radius: 1rem;
+  height: 50%;
+  width: 29%;
+  background-color:rgb(160, 168, 166);
+  box-shadow: 20px 20px 50px black;
+}
+.sub-container {
+  margin: 8px;
+}
+#app {
+  display:flex;
+  margin-top: 20px;
+}
+#select1 {
+  padding: 5px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  border: none;
+}
+#select1:hover{
+  border-bottom:5px solid tomato;
+}
+#select2:hover{
+  border-bottom:5px solid tomato;
+}
+.from1 {
+  margin-left: 4px;
+  font-size: large;
+}
+.To {
+  font-size: large;
+}
+#select2 {
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 50px;
+  height: 50px;
+  width: 185px;
+  border: none;
+}
+#inpid {
+  padding: 5px;
+  border-radius: 50px;
+  border: none;
+  width: 96%;
+  height: 40px;
+}
+#inpid:hover{
+  border-bottom:5px solid tomato;
+}
+#inpid:focus{
+  outline: none;
+  border-bottom:5px solid tomato;
+}
+button {
+  border-radius: 50px;
+  border: none;
+  padding: 2%;
+  margin-left: 14%;
+  height: 40px;
+  width: 120px; 
+  font-size: large;
+  cursor: pointer;
+  background-color:rgb(186, 193, 204); 
+}
+button:hover{
+  border-bottom:4px solid rgb(77, 72, 72);
+}
+#ans {
+  border-radius: 50px;
+  padding: 5px;
+  border: none;
+  width: 96%;
+  height: 40px;
+}
+#ans:focus{
+  outline: none;
+}
+option{
+  font-size:large;
+}
+
